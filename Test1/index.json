@@ -1,8 +1,8 @@
 {
   "title": "test",
-  "description": "desc",
+  "description": "test",
   "difficulty": "Beginner",
-  "time": "5 min",
+  "time": "5",
   "details": {
     "steps": [
       {
@@ -12,10 +12,6 @@
       {
         "title": "Step 2",
         "text": "step2.md"
-      },
-      {
-        "title": "Step 3",
-        "text": "step3.md"
       }
     ],
     "intro": {
@@ -29,6 +25,6 @@
     "uilayout": "editor-terminal"
   },
   "backend": {
-    "imageid": "java"
+    "imageid": "openjdk:15"
   }
 }
