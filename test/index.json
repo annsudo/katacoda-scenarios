@@ -1,6 +1,6 @@
 {
   "title": "test",
-  "description": "test",
+  "description": "desc",
   "difficulty": "Beginner",
   "time": "5 min",
   "details": {
@@ -12,6 +12,10 @@
       {
         "title": "Step 2",
         "text": "step2.md"
+      },
+      {
+        "title": "Step 3",
+        "text": "step3.md"
       }
     ],
     "intro": {
