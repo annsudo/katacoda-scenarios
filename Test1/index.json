@@ -29,7 +29,7 @@
   "environment": {
     "showide": true,
     "idePort": 23000,
-    "uilayout": "editor",
+    "uilayout": "terminal",
     "showdashboard": true,
         "dashboards": [
             {"name": "Port 80", "port": 80},
