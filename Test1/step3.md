@@ -8,7 +8,7 @@ Let´s follow same steps for second microservice
 
 Rating-data-service will be holding *rating* and *podcast id* properties.
 
-Open fine `monolithic-to-microservices/start-microservices/ratings-data-service/src/main/java/com/devops/podcastinfoservice/resources/RatingDataResources..java`{{open}}
+Open fine `monolithic-to-microservices/start-microservices/ratings-data-service/src/main/java/com/devops/podcastinfoservice/resources/RatingDataResources.java`{{open}}
 
 Define a list of Rating objects.
 It´s consider a bad practice to pass a list over API, so let´s define an object UserRating  which will hold our list and return it.
