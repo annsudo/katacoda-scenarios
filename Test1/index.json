@@ -30,8 +30,7 @@
     "uilayout": "editor-terminal",
     "showdashboard": true,
         "dashboards": [
-            {"name": "Port 80", "port": 80},
-            {"name": "Catalog", "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com//catalog", "port": 8080},
+            {"name": "Monolithic", "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com//catalog", "port": 8080},
             {"name": "GitHub", "href": "https://github.com/annsudo/monolithic-to-microservices"}]
 
   },
