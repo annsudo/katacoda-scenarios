@@ -29,7 +29,7 @@
     "uieditorpath": "/root/example",
     "showide": true,
     "idePort": 23000,
-    "uilayout": "terminal-iframe",
+    "uilayout": "vscode",
     "showdashboard": true,
         "dashboards": [
             {"name": "Port 80", "port": 80},
