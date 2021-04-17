@@ -62,3 +62,5 @@ Navigate to the right project ` cd ; cd monolithic-to-microservices/start-micros
 Run it `mvn spring-boot:run`{{execute}}
 
 When you see the "Completed initialization" in terminal go ahead and open the "podcast-info-service" tab.
+
+Good job! Now try to change the id number in url to assure the right functionality implementation.
