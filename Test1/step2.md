@@ -10,7 +10,7 @@ Let´s look at our app. We can split the information we have about the podcasts 
 
 
 ## Creating the first microservise
-We start with **Podcast-info-service**. Template is ready for you. Navigate to `cd monolithic-to-microservices/start-microservices/podcast-info-service`{{execute}}
+We start with **Podcast-info-service**. Template is ready for you. Navigate to ` cd ; cd monolithic-to-microservices/start-microservices/podcast-info-service`{{execute}}
 
 ### Defining Logic
 
@@ -55,7 +55,7 @@ In `monolithic-to-microservices/start-microservices/podcast-info-service/src/mai
 
 ## Testing
 
-Navigate to the right project `cd monolithic-to-microservices/start-microservices/podcast-info-service`{{execute}}
+Navigate to the right project ` cd ; cd monolithic-to-microservices/start-microservices/podcast-info-service`{{execute}}
 
 Run it `mvn spring-boot:run`{{execute}}
 
