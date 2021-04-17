@@ -27,5 +27,3 @@ Good understanding of Java language and basic knowledge of RESTful API
 
 ## Learning by doing they said ;) Let's start!
 
-
- ------> Each micro-service should perform a single business requirement.

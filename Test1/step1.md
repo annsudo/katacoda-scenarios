@@ -36,5 +36,5 @@ Can we see the list of podcasts?
 
 Great! Now, go ahead and add 2 more podcasts to the list. Then make sure you can see them on Monolithic-tab.
 
-By first stopping the previous run `Ctrl+C`{{execute}}
-and initialising run again `mvn spring-boot:run`{{execute}}
+By first stopping the previous run `Ctrl+C`, initialising new one again `mvn spring-boot:run`{{execute}}
+and updating the `Monolithic-tab`
