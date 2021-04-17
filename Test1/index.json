@@ -38,7 +38,7 @@
 
   },
   "backend": {
-    "imageid": "ubuntu",
+    "imageid": "openjdk:15",
     "port":80
   }
 }
