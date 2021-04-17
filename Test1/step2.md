@@ -1,6 +1,8 @@
+
 ## What does building with microservices mean?
 
 It means you are developing your entire application in small, independent components AKA microservices. Each micro-service should perform a single business requirement. 
+
 
 Let´s look at our app. We can split the information we have about the podcasts into two indipendent business requirements:
 
@@ -9,8 +11,6 @@ Let´s look at our app. We can split the information we have about the podcasts 
 **Rating-data-service** will be responsible for ratings of podcasts
 
 
-## Creating the first microservise
-We start with **Podcast-info-service**. Template is ready for you. Navigate to ` cd ; cd monolithic-to-microservices/start-microservices/podcast-info-service`{{execute}}
 
 ### Defining Logic
 
@@ -50,7 +50,9 @@ To separate developer concerns- each microservice ideally has its own database t
 
 We will be running and testing several microservises simultaneously. Let´s define a special port which this servise will run on
 
-In `monolithic-to-microservices/start-microservices/podcast-info-service/src/main/resources/application.properties`{{open}} add `server.port=8082`
+In `monolithic-to-microservices/start-microservices/podcast-info-service/src/main/resources/application.properties`{{open}} 
+
+Add `server.port=8082`
 
 
 ## Testing
