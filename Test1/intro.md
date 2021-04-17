@@ -6,15 +6,24 @@ It means you are developing your entire application in small, independent compon
 
 ## Our Plan:
 1) Gettingt to know application and enviroment
+
 2) Building our first microservice
+
 3) Let´s scale! Second one..
+
 4) But Duplications?
+
 5) Creaing Eureka server
+
 6) Microservices as Eureka-clients
+
 7) Load balancer annotation
 
 ## Keep in mind
-To help us to focus on the main goal: microservices, most of the things are already pre-configured for you. The data of the Podcast we also be hardcoded into the java classes to make the learning experience easier for us. 
+To help us to focus on the main concept- MICROSERVICES, project and invironment is already fully configured for you. The data of the Podcast-objcts will also be hardcoded into the java classes to make the learning experience easier for us. 
+
+## Recommended prerequisites
+Good understanding of Java language and basic knowledge of RESTful API
 
 ## Learning by doing they said ;) Let's start!
 

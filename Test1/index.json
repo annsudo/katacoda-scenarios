@@ -6,7 +6,7 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Step 1: Monolithic application",
         "text": "step1.md"
       },
       {
