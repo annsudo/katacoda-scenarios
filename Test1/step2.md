@@ -16,7 +16,7 @@ We start with **Podcast-info-service**. Template is ready for you. Navigate to `
 
 This microsevice is responsible for storage of data about the podcast, to be exact *podcast name*. To know exactly which podcast it is it will all use the *podcast id* property.
 
-Open fine `monolithic-to-microservices/finnish/podcast-info-service/src/main/java/com/devops/podcastinfoservice/resources/PodcastResource.java`{{open}}
+Open fine `monolithic-to-microservices/start-microservices/podcast-info-service/src/main/java/com/devops/podcastinfoservice/resources/PodcastResource.java`{{open}}
 
 Define a list of Podcast objects, every one of which is availible at "/podcast/{podcastId}"
 
