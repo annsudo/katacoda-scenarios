@@ -38,3 +38,7 @@ Great! Now, go ahead and add 2 more podcasts to the list. Then make sure you can
 
 By first stopping the previous run `Ctrl+C`, initialising new one again `mvn spring-boot:run`{{execute}}
 and updating the `Monolithic-tab`
+
+Tips:
+<pre class="file" data-filename="PodcastCatalogResource.java" data-target="replace">new CatalogItem("New podcast", "self devevelopment", 5);
+</pre>

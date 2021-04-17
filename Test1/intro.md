@@ -1,9 +1,6 @@
 ## What will we learn:
 How to split a monolith java application to microservices with help of Eureka server, clients and load balancer.
 
-## What does building with microservices mean:
-It means you are developing your entire application in small, independent components which communicate with each other over private APIs. 
-
 ## Our Plan:
 1) Gettingt to know application and enviroment
 
