@@ -1,0 +1,1 @@
+Monolithic java application has been installed and configure in the enviroment
