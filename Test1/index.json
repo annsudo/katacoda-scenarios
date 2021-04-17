@@ -32,7 +32,8 @@
         "dashboards": [
             {"name": "Monolithic", "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com//catalog", "port": 8080},
             {"name": "GitHub", "href": "https://github.com/annsudo/monolithic-to-microservices"}],
-    "hideHiddenFiles":true        
+    "hideHiddenFiles":true,
+    "exclusionPatterns":["project/", "target"]        
 
   },
   "backend": {
