@@ -12,13 +12,24 @@ In the lower part you see :
 
 We will be working with a small Podcast-java application that will display a list of Podcast: name, descripton and rating.
 
-## Let´s start
+## Code and templates
 
 The fastest way to start is to clone the git repository and use the projects that are provided inside:
 
 `git clone https://github.com/annsudo/monolithic-to-microservices`{{execute}}
 
-We are starting with 3 classes:
+There are 2 ways to use projects:
+
+1) Use pre-configured yet empty templates from "start-microservices" map if you want to code along
+
+2) Use templates from "finnish" map if you find it easier to follow the explanations when the code is already there
+
+
+## Let´s start
+
+We are starting from "monolothic" map. It is our starting point- the monolithic app where everything is happening in one single project.
+
+Lets look at 3 classes:
 
 The main class `monolithic-to-microservices/monolithic/src/main/java/com/devops/monolithic/MonolithicApplication.java`{{open}}
 
@@ -26,9 +37,13 @@ Podcast-catalog class, where most of the logic happens`monolithic-to-microservic
 
 CatalogItem.java  holds the Podcast object  `monolithic-to-microservices/monolithic/src/main/java/com/devops/monolithic/models/CatalogItem.java`{{open}}
 
-Let´s navigate to the start-project in terminal `cd monolithic-to-microservices/monolithic/`{{execute}}
+We have a list of CatalogItems. Each contain name, description and rating. With help of REST-API we are making that list availible in webb brouser. 
 
-And run it `mvn spring-boot:run`{{execute}}
+Let´s see how it works
+
+Navigate to the right project `cd monolithic-to-microservices/monolithic/`{{execute}}
+
+Run it `mvn spring-boot:run`{{execute}}
 
 When you see the "Completed initialization" in terminal go ahead and open the Monolithic-tab.
 
