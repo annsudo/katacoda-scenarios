@@ -30,10 +30,13 @@
     "uilayout": "editor-terminal",
     "showdashboard": true,
         "dashboards": [
-            {"name": "Monolithic", "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com//catalog", "port": 8080},
+            {"name": "Monolithic", "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/catalog", "port": 8080},
+            {"name": "catalog-service", "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/catalog/Katacoda", "port": 8081},
+            {"name": "podcast-info-service", "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/podcasts/1", "port": 8082},
+            {"name": "ratings-data-service", "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/ratingdata/users/Katacoda", "port": 8083},
+            {"name": "Eureka server", "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com", "port": 8761},
             {"name": "GitHub", "href": "https://github.com/annsudo/monolithic-to-microservices"}],
-    "hideHiddenFiles":true,
-    "exclusionPatterns":["project/", "target"]        
+    "hideHiddenFiles":true    
 
   },
   "backend": {

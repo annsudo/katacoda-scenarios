@@ -12,6 +12,7 @@ Let´s look at our app. We can split the information we have about the podcasts 
 ## Creating the first microservise
 We start with **Podcast-info-service**. Template is ready for you. Navigate to `cd monolithic-to-microservices/monolithic/`{{execute}} **!!!!!!!!!!!!**
 
+
 This microsevice is responsible for storage of data about the podcast, to be exact *podcast name*. To know exactly which podcast it is it will all use the *podcast id* property.
 
 
