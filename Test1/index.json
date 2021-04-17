@@ -25,14 +25,11 @@
       "text": "finish.md"
     }
   },
-"files": [
-  "MonolithicApplication.java","PodcastCatalogResource.java","CatalogItem.java"
-],
 
   "environment": {
     "showide": true,
     "idePort": 23000,
-    "uilayout": "editor-terminal-v1",
+    "uilayout": "editor-terminal",
     "showdashboard": true,
         "dashboards": [
             {"name": "Port 80", "port": 80},
