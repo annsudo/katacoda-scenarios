@@ -25,11 +25,15 @@
       "text": "finish.md"
     }
   },
+"files": [
+  "MonolithicApplication.java","PodcastCatalogResource.java","CatalogItem.java"
+],
+
   "environment": {
     "uieditorpath": "/root/example",
     "showide": true,
     "idePort": 23000,
-    "uilayout": "vscode",
+    "uilayout": "terminal-iframe",
     "showdashboard": true,
         "dashboards": [
             {"name": "Port 80", "port": 80},
