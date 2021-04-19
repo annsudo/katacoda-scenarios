@@ -1,2 +1,2 @@
 
-## Load balancer
+## Eureka clients

@@ -18,20 +18,24 @@
         "text": "step3.md"
       },
       {
-        "title": "Step 4: WHY and WHY NOT?",
+        "title": "Step 4: Catalog microservice ",
         "text": "step4.md"
       },
       {
-        "title": "Step 5: Eureka server",
+        "title": "Step 5: WHY and WHY NOT?",
         "text": "step5.md"
       },
       {
-        "title": "Step 6:  Eureka-clients",
+        "title": "Step 6: Eureka server",
         "text": "step6.md"
       },
       {
-        "title": "Step 7: Load balancer ",
+        "title": "Step 7:  Eureka-clients",
         "text": "step7.md"
+      },
+      {
+        "title": "Step 8: Load balancer ",
+        "text": "step8.md"
       }
     ],
     "intro": {

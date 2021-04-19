@@ -1,2 +1,2 @@
 
-## Eureka clients
+## Eureka server
