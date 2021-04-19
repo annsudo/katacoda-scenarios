@@ -46,13 +46,12 @@ In `monolithic-to-microservices/start-microservices/ratings-data-service/src/mai
 
 ## Testing
 
+Open new terminal
+
 Navigate to the right project ` cd ; cd monolithic-to-microservices/start-microservices/ratings-data-service`{{execute}}
 
 Run it `mvn spring-boot:run`{{execute}}
 
 When you see the "Completed initialization" in terminal go ahead and open the "rating-data-service" tab.
 
-Tips: Dont forget to stop the previous service ´Ctrl +C´ in terminal. Or open a new terminal by pushing `+` in the right corner of the lower tabs-screen
-
-
-Challenges with architecture
+💡 Tips: Dont forget to stop the previous service ´Ctrl +C´ in terminal. Or open a new terminal by pushing `+` in the right corner of the lower tabs-screen

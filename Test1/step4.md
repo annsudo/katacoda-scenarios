@@ -27,7 +27,8 @@ return.ratings.stream().map(rating->{
 ).collect(Collector.toList());
 
 ```
-OBS: the link looks stange because we are running it through Katacoda environment. While testing locally your link would be as usual: "https://localhost:8082/podcasts/" VS "https://localhost:8083/ratingdata/users/"
+
+OBS 👾: the link looks strange because we are running it through Katacoda environment. While testing locally your link would be as usual: "https://localhost:8082/podcasts/" VS "https://localhost:8083/ratingdata/users/"
 
 
 ## Port 8081
@@ -40,8 +41,12 @@ In `monolithic-to-microservices/start-microservices/podcast-catalog-service/src/
 
 ## Test it 
 
+Open new terminal
+
 Navigate to the right project ` cd ; cd monolithic-to-microservices/start-microservices/podcast-catalog-service`{{execute}}
 
 Run it `mvn spring-boot:run`{{execute}}
 
 Find output in "catalog-servise" tab
+
+💡 Tips: since catalog-podcast servise needs data from both podcast-info service and rating-data-service make sure that those are up and running as well 
