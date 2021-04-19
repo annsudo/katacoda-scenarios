@@ -1,0 +1,66 @@
+{
+  "title": "Monolithic to micro services",
+  "description": "Learn concepts of splitting monolithic applications to micro services",
+  "difficulty": "Intermediate",
+  "time": "15-20 min",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1: Monolithic application",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2: First micro service",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3: Let´s scale! Second one..",
+        "text": "step3.md"
+      },
+      {
+        "title": "Step 4: Catalog micro service ",
+        "text": "step4.md"
+      },
+      {
+        "title": "Step 5: Pros and Cons?",
+        "text": "step5.md"
+      },
+      {
+        "title": "Step 6: Eureka server",
+        "text": "step6.md"
+      },
+      {
+        "title": "Step 7:  Eureka-clients",
+        "text": "step7.md"
+      },
+      {
+        "title": "Step 8: Take away 💥 ",
+        "text": "step8.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+
+  "environment": {
+    "uilayout": "editor-terminal",
+    "showdashboard": true,
+        "dashboards": [
+            {"name": "Monolithic", "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/catalog", "port": 8080},
+            {"name": "catalog-service", "href": "https://[[HOST_SUBDOMAIN]]-8081-[[KATACODA_HOST]].environments.katacoda.com/catalog/Katacoda", "port": 8081},
+            {"name": "podcast-info-service", "href": "https://[[HOST_SUBDOMAIN]]-8082-[[KATACODA_HOST]].environments.katacoda.com/podcasts/1", "port": 8082},
+            {"name": "ratings-data-service", "href": "https://[[HOST_SUBDOMAIN]]-8083-[[KATACODA_HOST]].environments.katacoda.com/ratingdata/users/Katacoda", "port": 8083},
+            {"name": "Eureka server", "href": "https://[[HOST_SUBDOMAIN]]-8761-[[KATACODA_HOST]].environments.katacoda.com", "port": 8761},
+            {"name": "GitHub", "href": "https://github.com/annsudo/monolithic-to-microservices"}],
+    "hideHiddenFiles":true    
+
+  },
+  "backend": {
+    "imageid": "openjdk:15",
+    "port":80
+  }
+}
