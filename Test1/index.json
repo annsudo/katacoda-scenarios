@@ -16,6 +16,22 @@
       {
         "title": "Step 3: Let´s scale! Second one..",
         "text": "step3.md"
+      },
+      {
+        "title": "Step 4: So much effort!",
+        "text": "step4.md"
+      },
+      {
+        "title": "Step 5: Eureka server",
+        "text": "step5.md"
+      },
+      {
+        "title": "Step 6:  Eureka-clients",
+        "text": "step6.md"
+      },
+      {
+        "title": "Step 7: Load balancer ",
+        "text": "step7.md"
       }
     ],
     "intro": {
