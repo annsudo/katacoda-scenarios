@@ -1,10 +1,10 @@
-You must sertanly reflexted upon that 4 lines of code became 25. More effert upon deployment is one of the drawbacks for this type of architecture. Here are some more
+Let’s examine possible drawbacks as well as all the notable benefits with a microservices architecture.
 
-### Drawbacks with architecture
+### Drawbacks
 
 💩 Effort while deploying
 
-Since there are more deployable units that must each be functional independently some parts od code need to be dublicated across the servises.
+Each deployable unit must be functional independently. Some parts of code need will need to be dublicated across services.
 
 
 💩 Changes can effect multiple services
@@ -15,9 +15,6 @@ Let´s say you change a structure of JSON file our info-microserves provides. Th
 
 Independent component implies independent testing. More microserveses leads to more interfaces to test.
 
-
-
-To take rational desitions about the architecture choice it is important to examine both drawbacks as well as benifits. Let’s discuss the most notable reasons why a microservices architecture can be a better choice for your company. 
 
 
 ### Advantages with microservices
@@ -34,5 +31,5 @@ Microservice can easily be rewritten and replaced without compromising the whole
 
 ⭐ Scalability and Cross-functionality
 
-Best choice for distributed teams as they grant flexibility to work autonomously. The internal structure of each unit or container does not matter as long as the interface functions correctly.  Technical decisions can be made quickly, services can be scaled and deployed easier.
+Granting flexibility to work autonomously. The internal structure of each unit doesn´t matter as long as the interface functions correctly. Technical decisions can be made quickly, services can be scaled and deployed easier.
 
