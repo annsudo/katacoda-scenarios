@@ -1,6 +1,6 @@
 The discovery server is ready 💥 Next step is to register the Spring Boot Micro service applications into the Eureka Server.
 
-## Anotation
+## Annotation
 
 Add the **@EnableEurekaClient** annotation in the main class file for all 3 services. The @EnableEurekaClient annotation will make our Spring Boot applications act as a Eureka clients.
 
@@ -30,4 +30,4 @@ and  `"http://podcast-info-service/podcasts/"`
 
  -->  run *podcast-catalog-service*
 
- 💡 Tips: If you run into issues, you have always all final-version code availible on both github and in the "finish"-map
+ 💡 Tips: If you run into issues, you have always all final-version code available on both Github-tab and in the "finish"-map

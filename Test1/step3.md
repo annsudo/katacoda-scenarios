@@ -1,7 +1,7 @@
 
 ## Rating-data-service 
 
-Let´s follow same steps for second microservice
+Let´s follow same steps for second micro service
 
 
 ### Defining Logic
@@ -13,7 +13,7 @@ Open fine `monolithic-to-microservices/start-microservices/ratings-data-service/
 Define a list of Rating objects.
 It´s consider a bad practice to pass a list over API, so let´s define an object UserRating  which will hold our list and return it.
 
-Tips: Both Rating and UserRating objects are predifined. You will find them in the "models" map for this project
+💡 Tips: Both Rating and UserRating objects are predefined. You will find them in the "models" map for this project
 
 ```
 @RestController
@@ -40,7 +40,7 @@ public class RatingDataResources{
 
 This service will run on port 8083.
 
-Do you remenber how we did it in the previous step? Go ahead and try it yourself ;) 
+Do you remember how we did it in the previous step? Go ahead and try it yourself ;) 
 
 In `monolithic-to-microservices/start-microservices/ratings-data-service/src/main/resources/application.properties`{{open}} 
 

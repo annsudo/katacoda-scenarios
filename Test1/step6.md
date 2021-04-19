@@ -3,7 +3,7 @@ All three services are running and communicating with each other!🎉
 
 There is yet a problem... All our URIs are hardcoded. In real life services are running on different machines and theirs Uri can change.
 
-We need a Discovery Server- an application that holds the information about all client-service applications. Clients don’t communicate with services directly. Instead, they call the API gateway, which forwards the call to the appropriate services on the back end.
+We need a Discovery Server - an application that holds the information about all client-service applications. Clients don’t communicate with services directly. Instead, they call the API gateway, which forwards the call to the appropriate services on the back end.
 
 ## Eureka server
 

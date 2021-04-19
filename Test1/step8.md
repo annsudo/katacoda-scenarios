@@ -1,7 +1,7 @@
 In this tutorial we learned:
 
 
-🔧  **Building with microservices**
+🔧  **Building with micro services**
  means you are developing your entire application in small, independent components. Each micro-service should perform a single business requirement. 
 
 

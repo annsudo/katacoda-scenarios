@@ -1,12 +1,12 @@
 
 ## So many tabs..
 
-In the upper part of the screen we have the Kadacoda-editor. There you can navigate and code the same way as you usually do locally.
+In the upper part of the screen we have the Kadacoda -editor. There you can navigate and code the same way as you usually do locally.
 
 In the lower part you see : 
 * terminal
 * several windows that we will need during the tutorial to test our services
-* Github-tab where you can find step-for-step of this tutorial. Feel free to continue playing with it!
+* Github -tab where you can find step-for-step of this tutorial. Feel free to continue playing with it!
 
 ## What are we building? 
 
@@ -27,7 +27,7 @@ There are 2 ways to use projects:
 
 ## Let´s start
 
-We are starting from "monolothic" map. It is our starting point- the monolithic app where everything is happening in one single project.
+We are starting from "monolithic" app where everything is happening in one single project.
 
 Lets look at 3 classes:
 
@@ -51,5 +51,5 @@ Can we see the list of podcasts?
 
 Great! Now, go ahead and add 2 more podcasts to the list. Then make sure you can see them on Monolithic-tab.
 
-By first stopping the previous run `Ctrl+C`, initialising new one again `mvn spring-boot:run`{{execute}}
+By first stopping the previous run `Ctrl+C`, initializing new one again `mvn spring-boot:run`{{execute}}
 and updating the `Monolithic-tab`

@@ -1,10 +1,10 @@
 
-## What does building with microservices mean?
+## What does building with micro services mean?
 
-It means you are developing your entire application in small, independent components AKA microservices. Each micro-service should perform a single business requirement. 
+It means you are developing your entire application in small, independent components AKA micro services. Each micro-service should perform a single business requirement. 
 
 
-Let´s look at our app. We can split the information we have about the podcasts into two indipendent business requirements:
+Let´s look at our app. We can split the information we have about the podcasts into two independent business requirements:
 
 **Podcast-info-service** will provide the information about the podcast itself
 
@@ -14,11 +14,11 @@ Let´s look at our app. We can split the information we have about the podcasts 
 
 ### Defining Logic
 
-This microsevice is responsible for storage of data about the podcast, to be exact *podcast name*. To know exactly which podcast it is it will all use the *podcast id* property.
+This micro sevice is responsible for storage of data about the podcast as *podcast name*. To know exactly which podcast it is it will all use the *podcast id* property.
 
 Open fine `monolithic-to-microservices/start-microservices/podcast-info-service/src/main/java/com/devops/podcastinfoservice/resources/PodcastResource.java`{{open}}
 
-Define a list of Podcast objects, every one of which is availible at "/podcast/{podcastId}"
+Define a list of Podcast objects, every one of which is available at "/podcast/{podcastId}"
 
 ```
 @RestController
@@ -44,11 +44,11 @@ public class PodcastResource {
 
 ## Data
 
-To separate developer concerns- each microservice ideally has its own database tables. This time, we will hardcode the data.
+To separate developer concerns , each microservice ideally has its own database tables. This time, we will hardcode the data.
 
 ## Port 8082
 
-We will be running and testing several microservises simultaneously. Let´s define a special port which this servise will run on
+We will be running and testing several micro servises simultaneously. Let´s define a special port which this servise will run on
 
 In `monolithic-to-microservices/start-microservices/podcast-info-service/src/main/resources/application.properties`{{open}} 
 
@@ -63,4 +63,4 @@ Run it `mvn spring-boot:run`{{execute}}
 
 When you see the "Completed initialization" in terminal go ahead and open the "podcast-info-service" tab.
 
-Good job! Now try to change the id number in url to assure the right functionality implementation.
+Good job! Now try to change the id number in URL to assure the right functionality implementation.

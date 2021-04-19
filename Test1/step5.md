@@ -1,4 +1,4 @@
-Let’s examine possible drawbacks as well as all the notable benefits with a microservices architecture.
+Let’s examine possible drawbacks as well as all the notable benefits with a micro services architecture.
 
 ### Drawbacks
 
@@ -9,16 +9,16 @@ Each deployable unit must be functional independently. Some parts of code need w
 
 💩 **Changes can effect multiple services**
 
-Let´s say you change a structure of JSON file our info-microserves provides. The catalog componet won´t be able to use it anymore since different java-object structure is expected. To solve such issues: dependencies between microservices must be managed appropriately.
+Let´s say you change a structure of *JSON file* our *podcast-info-service* provides. The catalog componet won´t be able to use it anymore since different java-object structure is expected. To solve such issues: dependencies between microservices must be managed appropriately.
 
 
 💩 **Independent testing**
 
-Independent component implies independent testing. More microserveses leads to more interfaces to test.
+Independent component implies independent testing. More micro serveses leads to more interfaces to test.
 
 
 
-### Advantages with microservices
+### Advantages with micro services
 
 ⭐ **Independency and Flexibility**
 
@@ -27,7 +27,7 @@ Developers can work on, test and deploy different components independently of ea
 
 ⭐ **Resilience and Sustainability**
 
-Microservice can easily be rewritten and replaced without compromising the whole system. And if a service goes down, it won’t take out the entire application. This means that systems remain maintainable in the long run.
+Micro service can easily be rewritten and replaced without compromising the whole system. And if a service goes down, it won’t take out the entire application. This means that systems remain maintainable in the long run.
 
 
 
