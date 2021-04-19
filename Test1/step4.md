@@ -28,7 +28,7 @@ return.ratings.stream().map(rating->{
 
 ```
 
-OBS 👾: the link looks strange because we are running it through *Katacoda* environment. While testing locally your link would be as usual: "https://localhost:8082/podcasts/" VS "https://localhost:8083/ratingdata/users/"
+OBS 👾: the link looks strange because we are running it through *Katacoda* environment. While testing locally your link would be as usual: `https://localhost:8082/podcasts/` VS `https://localhost:8083/ratingdata/users/`
 
 
 ## Port 8081
