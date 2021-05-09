@@ -1,5 +1,5 @@
 {
-  "title": "Monolithic to micro services",
+  "title": "Monolithic to microservices",
   "description": "Learn concepts of splitting monolithic applications to micro services",
   "difficulty": "Intermediate",
   "time": "15-20 min",
@@ -10,7 +10,7 @@
         "text": "step1.md"
       },
       {
-        "title": "Step 2: First micro service",
+        "title": "Step 2: First microservice",
         "text": "step2.md"
       },
       {
@@ -18,7 +18,7 @@
         "text": "step3.md"
       },
       {
-        "title": "Step 4: Catalog micro service ",
+        "title": "Step 4: Catalog microservice ",
         "text": "step4.md"
       },
       {
