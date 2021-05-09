@@ -14,11 +14,13 @@ Let´s look at our app. We can split the information we have about the podcasts 
 
 ### Defining Logic
 
-This microsevice is responsible for storage of data about the podcast as *podcast name*. To know exactly which podcast it is it will all use the *podcast id* property.
+This microsevice is responsible for storage of data about the podcast (as *podcast name*). To know exactly which podcast it is ,it will use the *podcast id* property.
 
 Open fine `monolithic-to-microservices/start-microservices/podcast-info-service/src/main/java/com/devops/podcastinfoservice/resources/PodcastResource.java`{{open}}
 
-Define a list of Podcast objects, every one of which is available at "/podcasts/{podcastId}"
+Define a list of Podcast objects, every one of which is available at "/podcasts/{podcastId}".
+
+Your class will look like this:
 
 ```
 @RestController
@@ -61,6 +63,6 @@ Navigate to the right project ` cd ; cd monolithic-to-microservices/start-micros
 
 Run it `mvn spring-boot:run`{{execute}}
 
-When you see the "Completed initialization" in terminal go ahead and open the "podcast-info-service" tab.
+When you see *Started PodcastInfoServiceApplication in X seconds (JVM running for Y)* in terminal go ahead and open the "podcast-info-service" tab.
 
 Good job! Now try to change the id number in URL to assure the right functionality implementation.

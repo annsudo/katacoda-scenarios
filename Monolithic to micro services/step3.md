@@ -15,6 +15,14 @@ It´s considered a bad practice to pass a list over an API, so let´s define an 
 
 💡 Tips: Both Rating and UserRating objects are predefined. You will find them in the "models" map for this project
 
+Rating `monolithic-to-microservices/start-microservices/ratings-data-service/src/main/java/com/devops/ratingsdataservice/models/Rating.java`{{open}}
+
+UserRating`monolithic-to-microservices/start-microservices/ratings-data-service/src/main/java/com/devops/ratingsdataservice/models/UserRating.java`{{open}}
+
+Define a list of Rating objects, every one of which is available at "/ratingdata/users/Katacoda".
+
+Your class will look like this:
+
 ```
 @RestController
 @RequestMapping("/ratingdata")
@@ -52,6 +60,6 @@ Navigate to the right project ` cd ; cd monolithic-to-microservices/start-micros
 
 Run it `mvn spring-boot:run`{{execute}}
 
-When you see the "Completed initialization" in terminal go ahead and open the "rating-data-service" tab.
+When you see *Started RatingsDataServiceApplication in X seconds (JVM running for Y)* in terminal go ahead and open the "rating-data-service" tab.
 
 💡 Tips: Dont forget to stop the previous service ´Ctrl +C´ in terminal. Or open a new terminal by pushing `+` in the right corner of the lower tabs-screen
