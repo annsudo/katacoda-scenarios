@@ -18,7 +18,7 @@ This microsevice is responsible for storage of data about the podcast as *podcas
 
 Open fine `monolithic-to-microservices/start-microservices/podcast-info-service/src/main/java/com/devops/podcastinfoservice/resources/PodcastResource.java`{{open}}
 
-Define a list of Podcast objects, every one of which is available at "/podcast/{podcastId}"
+Define a list of Podcast objects, every one of which is available at "/podcasts/{podcastId}"
 
 ```
 @RestController

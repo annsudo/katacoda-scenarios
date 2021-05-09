@@ -20,11 +20,10 @@ UserRating ratings = restTemplate.getForObject("https://2886795346-8083-host08nc
 For each *podastId*, we want to get data from *podcast-info-service*, put all data together and return as new *CatalogItem-object* for each 
 
 ```
-return.ratings.stream().map(rating->{
-   Podcast podcast= restTemplate.getForObject("https://2886795346-8082-host08nc.environments.katacoda.com/podcasts/"+rating.getPodcastID, Podcast.class);
-    return new Podcast(podcast.getName, "devOps",rating.getRating())
-}
-).collect(Collector.toList());
+  return ratings.getUserRating().stream().map(rating -> {
+              Podcast podcast = restTemplate.getForObject("http://localhost:8082/podcasts/" + rating.getPodcastId(), Podcast.class);
+              return new CatalogItem(podcast.getName(), "Security", rating.getRating());
+          }).collect(Collectors.toList());
 
 ```
 

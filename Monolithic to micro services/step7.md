@@ -12,12 +12,14 @@ To make the service discovery easy, we need to give a name for each service. Nav
 **spring.application.name=podcast-info-service**
 **spring.application.name=ratings-data-service**
 
+*Spring.application.name* will replace the IP:port combination, to avoid using static URIs.
+
 ## Changing URI
  Time to change hardcoded URI
 
 Navigate to  `monolithic-to-microservices/start-microservices/podcast-catalog-service/src/main/java/com/devops/podcastcatalogservice/resources/PodcastCatalogResource.java`{{open}}
 
-Change URI to `"http://ratings-data-service/ratingdata/users/"`
+Change URI to `"http://ratings-data-service/ratingdata/users/Katacoda"`
 and  `"http://podcast-info-service/podcasts/"`
 
 

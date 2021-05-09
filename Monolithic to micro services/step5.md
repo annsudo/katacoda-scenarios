@@ -4,7 +4,7 @@ Let’s examine possible drawbacks as well as all the notable benefits with a mi
 
 💩 **Effort while deploying**
 
-Each deployable unit must be functional independently. Some parts of code need will need to be duplicated across services.
+Each deployable unit must be functional independently. Some parts of code will be duplicated across microservices.
 
 
 💩 **Changes can affect multiple services**
@@ -35,3 +35,9 @@ Micro service can easily be rewritten and replaced without compromising the whol
 
 Granting flexibility to work autonomously. The internal structure of each unit doesn´t matter as long as the interface functions correctly. Technical decisions can be made quickly, services can be scaled and deployed easier.
 
+
+
+## 🧠 Want to know more?
+* [Advantages and Disadvantages of Microservices Architecture](https://cloudacademy.com/blog/microservices-architecture-challenge-advantage-drawback/)
+* [To go or not to go micro: the pros and cons of microservices](https://medium.com/@goodrebels/to-go-or-not-to-go-micro-the-pros-and-cons-of-microservices-7967418ff06)
+* [Microservices: the Pros and the Cons](https://agilethought.com/blogs/microservices-pros-and-cons/)

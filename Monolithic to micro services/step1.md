@@ -45,7 +45,7 @@ Navigate to the right project `cd monolithic-to-microservices/monolithic/`{{exec
 
 Run it `mvn spring-boot:run`{{execute}}
 
-When you see the "Completed initialization" in terminal go ahead and open the Monolithic-tab.
+When you see *Started MonolithicApplication in X seconds (JVM running for Y)* open the Monolithic-tab.
 
 Can we see the list of podcasts?
 
@@ -53,3 +53,4 @@ Great! Now, go ahead and add 2 more podcasts to the list. Then make sure you can
 
 By first stopping the previous run `Ctrl+C`, initializing new one again `mvn spring-boot:run`{{execute}}
 and updating the `Monolithic-tab`
+

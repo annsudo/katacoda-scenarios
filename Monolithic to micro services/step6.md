@@ -11,10 +11,10 @@ We will be using the Eureka server developed by Netflix as the discovery server.
 
 There is a prepared template for you with imported Eureka server dependency.
 
-Open  `monolithic-to-microservices/start-microservices/discovery-server/src/main/java/com/devops/discoveryserver/resources/DiscoveryServerApplication.java`{{open}}
+Open  `monolithic-to-microservices/start-microservices/discovery-server/src/main/java/com/devops/discoveryserver/DiscoveryServerApplication.java`{{open}}
 
 
-The only thing we need to be is to add `@EnableEurekaServer` above the public class.
+The only thing we need to do is to add `@EnableEurekaServer` above the public class.
 
 
 ### Run it
@@ -25,3 +25,5 @@ Run it `mvn spring-boot:run`{{execute}}
 
 Eureka server will run on default port 8761, use the "Eureka server" - tab
 
+## 🧠 Want to know more?
+* [Spring Cloud: Service Discovery With Eureka](https://medium.com/swlh/spring-cloud-service-discovery-with-eureka-16f32068e5c7)
