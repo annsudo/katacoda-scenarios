@@ -1,5 +1,5 @@
 ## What will we learn:
-How to split a monolith java application to micro services with help of Eureka server, clients and load balancer.
+How to split a monolith java application to micro services with help of Eureka server and clients.
 
 ## Our Plan:
 1) Getting to know monolithic application and Katacoda - enviroment

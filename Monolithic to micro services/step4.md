@@ -1,6 +1,6 @@
 It´s time to put all the data together.
 
-We are working with micro services architecture, which means that the Catalog must a servise too. Let´s call in **podcast-catalog-service**
+We are working with microservices architecture, which means that the Catalog must be a servise too. Let´s call in **podcast-catalog-service**
 
 There is a prepared template for you with imported *Object-classes* ;)
 
@@ -17,7 +17,7 @@ UserRating ratings = restTemplate.getForObject("https://2886795346-8083-host08nc
 
 ### Step 2 : Details from podcast-info-service
 
-For each *podastId*, we want to get data from *podcast-info-service*, put all data togehter and return as new *CatalogItem-object* for each 
+For each *podastId*, we want to get data from *podcast-info-service*, put all data together and return as new *CatalogItem-object* for each 
 
 ```
 return.ratings.stream().map(rating->{
@@ -47,6 +47,6 @@ Navigate to the right project ` cd ; cd monolithic-to-microservices/start-micros
 
 Run it `mvn spring-boot:run`{{execute}}
 
-Find output in *catalog-servise* tab
+Find output in *catalog-service* tab
 
 💡 Tips: since catalog-podcast service needs data from both podcast-info service and rating-data-service make sure that those are up and running as well 

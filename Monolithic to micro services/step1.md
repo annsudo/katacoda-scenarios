@@ -1,7 +1,7 @@
 
 ## So many tabs..
 
-In the upper part of the screen we have the Kadacoda -editor. There you can navigate and code the same way as you usually do locally.
+In the upper part of the screen we have the Katacoda -editor. There you can navigate and code the same way as you usually do locally.
 
 In the lower part you see : 
 * terminal
@@ -10,7 +10,7 @@ In the lower part you see :
 
 ## What are we building? 
 
-We will be working with a small Podcast-java application that will display a list of Podcast: name, descripton and rating.
+We will be working with a small Podcast-java application that will display a list of Podcast: name, description and rating.
 
 ## Code and templates
 
@@ -29,7 +29,7 @@ There are 2 ways to use projects:
 
 We are starting from "monolithic" app where everything is happening in one single project.
 
-Lets look at 3 classes:
+Let's look at 3 classes:
 
 The main class `monolithic-to-microservices/monolithic/src/main/java/com/devops/monolithic/MonolithicApplication.java`{{open}}
 
@@ -37,7 +37,7 @@ Podcast-catalog class, where most of the logic happens`monolithic-to-microservic
 
 CatalogItem.java  holds the Podcast object  `monolithic-to-microservices/monolithic/src/main/java/com/devops/monolithic/models/CatalogItem.java`{{open}}
 
-We have a list of CatalogItems. Each contain name, description and rating. With help of REST-API we are making that list availible in webb brouser. 
+We have a list of CatalogItems. Each contains a name, description and rating. With help of REST-API we are making that list available in web browser. 
 
 Let´s see how it works
 

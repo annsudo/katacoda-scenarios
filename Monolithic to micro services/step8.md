@@ -7,7 +7,7 @@ In this tutorial we learned:
 
 ⭐ **Pros with architecture:**
 
-Independency and Flexibility
+Independence and Flexibility
 
 Resilience and Sustainability
 
@@ -18,7 +18,7 @@ Scalability and Cross-functionality
 
 More effort while deploying
 
-Changes can effect multiple services
+Changes can affect multiple services
 
 Independent testing
 

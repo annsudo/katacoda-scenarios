@@ -2,7 +2,7 @@ The discovery server is ready 💥 Next step is to register the Spring Boot Micr
 
 ## Annotation
 
-Add the **@EnableEurekaClient** annotation in the main class file for all 3 services. The *@EnableEurekaClient* annotation will make our Spring Boot applications act as a Eureka clients.
+Add the **@EnableEurekaClient** annotation in the main class file for all 3 services. The *@EnableEurekaClient* annotation will make our Spring Boot applications act as Eureka clients.
 
 ## Application Name
 

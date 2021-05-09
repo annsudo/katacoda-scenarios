@@ -1,7 +1,7 @@
 
 ## What does building with micro services mean?
 
-It means you are developing your entire application in small, independent components AKA micro services. Each micro-service should perform a single business requirement. 
+It means you are developing your entire application in small, independent components AKA microservices. Each microservice should perform a single business requirement. 
 
 
 Let´s look at our app. We can split the information we have about the podcasts into two independent business requirements:
@@ -14,7 +14,7 @@ Let´s look at our app. We can split the information we have about the podcasts 
 
 ### Defining Logic
 
-This micro sevice is responsible for storage of data about the podcast as *podcast name*. To know exactly which podcast it is it will all use the *podcast id* property.
+This microsevice is responsible for storage of data about the podcast as *podcast name*. To know exactly which podcast it is it will all use the *podcast id* property.
 
 Open fine `monolithic-to-microservices/start-microservices/podcast-info-service/src/main/java/com/devops/podcastinfoservice/resources/PodcastResource.java`{{open}}
 
@@ -48,7 +48,7 @@ To separate developer concerns , each microservice ideally has its own database 
 
 ## Port 8082
 
-We will be running and testing several micro servises simultaneously. Let´s define a special port which this servise will run on
+We will be running and testing several microservices simultaneously. Let´s define a special port which this service will run on
 
 In `monolithic-to-microservices/start-microservices/podcast-info-service/src/main/resources/application.properties`{{open}} 
 

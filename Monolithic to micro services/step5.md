@@ -4,23 +4,23 @@ Let’s examine possible drawbacks as well as all the notable benefits with a mi
 
 💩 **Effort while deploying**
 
-Each deployable unit must be functional independently. Some parts of code need will need to be dublicated across services.
+Each deployable unit must be functional independently. Some parts of code need will need to be duplicated across services.
 
 
-💩 **Changes can effect multiple services**
+💩 **Changes can affect multiple services**
 
-Let´s say you change a structure of *JSON file* our *podcast-info-service* provides. The catalog componet won´t be able to use it anymore since different java-object structure is expected. To solve such issues: dependencies between microservices must be managed appropriately.
+Let´s say you change a structure of *JSON file* our *podcast-info-service* provides. The catalog component won´t be able to use it anymore since different java-object structure is expected. To solve such issues: dependencies between microservices must be managed appropriately.
 
 
 💩 **Independent testing**
 
-Independent component implies independent testing. More micro serveses leads to more interfaces to test.
+Independent component implies independent testing. More micro serveses lead to more interfaces to test.
 
 
 
 ### Advantages with micro services
 
-⭐ **Independency and Flexibility**
+⭐ **Independence and Flexibility**
 
 Developers can work on, test and deploy different components independently of each other. As well as use different languages/frameworks for different components.
 
