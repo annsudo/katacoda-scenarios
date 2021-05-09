@@ -21,13 +21,38 @@ For each *podastId*, we want to get data from *podcast-info-service*, put all da
 
 ```
   return ratings.getUserRating().stream().map(rating -> {
-              Podcast podcast = restTemplate.getForObject("http://localhost:8082/podcasts/" + rating.getPodcastId(), Podcast.class);
+              Podcast podcast = restTemplate.getForObject("https://2886795337-8082-host10nc.environments.katacoda.com/podcasts/" + rating.getPodcastId(), Podcast.class);
               return new CatalogItem(podcast.getName(), "DevOps", rating.getRating());
           }).collect(Collectors.toList());
 
 ```
+Your class will look like this:
 
-OBS 👾: the link looks strange because we are running it through *Katacoda* environment. While testing locally your link would be as usual: `https://localhost:8082/podcasts/` VS `https://localhost:8083/ratingdata/users/`
+```
+@RestController
+@RequestMapping("/catalog")
+public class PodcastCatalogResource {
+
+    @Autowired
+    private RestTemplate restTemplate;
+
+    @RequestMapping("/Katacoda") 
+    public List<CatalogItem> getCatalog() {
+
+   UserRating ratings = restTemplate.getForObject("https://2886795337-8083-host10nc.environments.katacoda.com/ratingdata/users/Katacoda", UserRating.class);
+
+
+   return ratings.getUserRating().stream().map(rating->{
+        Podcast podcast= restTemplate.getForObject("https://2886795337-8082-host10nc.environments.katacoda.com/podcasts/"+rating.getPodcastId(), Podcast.class);
+        
+         return new CatalogItem(podcast.getName(), "devOps",rating.getRating());
+     }).collect(Collectors.toList());
+          
+    }
+}
+```
+
+OBS 👾: the link looks strange because we are running it through *Katacoda* environment. While testing locally your link would be as usual: `https://localhost:8082/podcasts/` VS `https://localhost:8083/ratingdata/users/Katacoda`. Also, the link names in Katacoda are not static, so make sure you are using links from tabs displayed by Katacoda.
 
 
 ## Port 8081
