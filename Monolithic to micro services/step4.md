@@ -11,7 +11,7 @@ We are starting with  `monolithic-to-microservices/start-microservices/podcast-c
 Let´s get *UserRating* object with the list of ratings from *rating-info-data*
 
 ```
-UserRating ratings = restTemplate.getForObject("https://2886795346-8083-host08nc.environments.katacoda.com/ratingdata/users/"+userId, UserRating.class);   
+UserRating ratings = restTemplate.getForObject("https://2886795346-8083-host08nc.environments.katacoda.com/ratingdata/users/Katacoda"+ UserRating.class);   
 
 ```
 
@@ -22,7 +22,7 @@ For each *podastId*, we want to get data from *podcast-info-service*, put all da
 ```
   return ratings.getUserRating().stream().map(rating -> {
               Podcast podcast = restTemplate.getForObject("http://localhost:8082/podcasts/" + rating.getPodcastId(), Podcast.class);
-              return new CatalogItem(podcast.getName(), "Security", rating.getRating());
+              return new CatalogItem(podcast.getName(), "DevOps", rating.getRating());
           }).collect(Collectors.toList());
 
 ```
